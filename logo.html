@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Image</title>
+    <style>
+        .circle-image {
+            width: 200px; /* Size adjust kar sakte hain */
+            height: 200px; 
+            border-radius: 50%; /* Image ko circle banane ke liye */
+            object-fit: cover; /* Taake image crop ho aur stretched na lage */
+            border: 3px solid #333; /* Optional border */
+        }
+        .circles-image {
+            width: 196px; /* Size adjust kar sakte hain */
+            height: 196px; 
+            border-radius: 50%; /* Image ko circle banane ke liye */
+            /* object-fit: cover; 
+            border: 3px solid #333;  */
+        }
+    </style>
+</head>
+<body>
+    <div class="circle-image">
+    <img src="logo.png" alt="Circular Image" class="circles-image">
+    </div>
+</body>
+</html>
